@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            android:layout_gravity="center"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            style="@style/AVLoadingIndicatorView"
+            android:visibility="visible"
+            app:indicatorName="LineScalePartyIndicator"
+            app:indicatorColor="@color/black"
+            android:layout_marginStart="20dp"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/lbTitle"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Chay ve noi phia anh"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/lbSubTitle"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Khac Viet"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:textSize="16sp"
+                android:textColor="@color/graya5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <ImageView
+            android:src="@drawable/icon_reorder_music"
+            android:layout_gravity="center"
+            android:layout_width="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="15dp"
+            app:tint="@color/graya5" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

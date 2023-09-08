@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="Home">Trang Chủ</string>
+    <string name="Artist">Nghệ Sĩ</string>
+    <string name="Playlist">DS Phát</string>
+    <string name="Songs">Bài Hát</string>
+    <string name="Korean_Music">Nhạc Hàn</string>
+    <string name="Chinese_Music">Nhạc Hoa</string>
+    <string name="Vietnamese_Music">Nhạc Việt</string>
+    <string name="Japanese_Music">Nhạc Nhật</string>
+
+    <string name="suggest_for_you">GỢI Ý DÀNH CHO BẠN</string>
+    <string name="enjoy_song">Thưởng thức những ca khúc phù hợp nhất với bạn</string>
+    <string name="listen_today">Nghe Gì Hôm Nay</string>
+    <string name="released_song">Bài Hát Mới Phát Hành</string>
+    <string name="released_albums">Album Mới Phát Hành</string>
+    <string name="v_pop_chart">BXH Bài Hát Việt Nam</string>
+    <string name="songs_charts">Bảng xếp hạng bài hát</string>
+    <string name="charts">BXH</string>
+    <string name="artist_charts">Bảng xếp hạng nghệ sĩ</string>
+    <string name="suggested_for_you">Gợi Ý</string>
+
+    <string name="song_list">DANH SÁCH</string>
+    <string name="related">LIÊN QUAN</string>
+    <string name="topics">Chủ Đề</string>
+
+    <string name="library">Thư Viện</string>
+    <string name="my_music">NhacCuaTui</string>
+    <string name="play_queue">DS Phát</string>
+
+    <string name="settings">Cài Đặt</string>
+    <string name="about_you">Bản Thân</string>
+    <string name="favorite">Upload Nhạc</string>
+    <string name="password">Đổi Mật Khẩu</string>
+    <string name="review">Đánh Giá</string>
+    <string name="feedback">Phản Hồi</string>
+    <string name="logout">Đăng Xuất</string>
+
+    <string name="tiktok">Nhạc TikTok</string>
+    <string name="rap">Rap Việt</string>
+
+    <string name="gym">GYM</string>
+    <string name="remix">Remix</string>
+    <string name="motivation">Motivation</string>
+    <string name="karaoke">Karaoke</string>
+
+</resources>

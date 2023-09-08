@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imv"
+                android:src="@drawable/imv_khacviet"
+                android:scaleType="centerCrop"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/lbTitle"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Chay ve noi phia anh"
+                android:layout_marginStart="20dp"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/lbSub"
+                android:text="Khac Viet"
+                android:layout_marginStart="20dp"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:textSize="16sp"
+                android:textColor="@color/homeSubTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btnMore"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_more"
+            android:scaleType="centerCrop"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            app:tint="@color/graya5" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View
+        android:id="@+id/line"
+        android:background="@color/grey"
+        android:layout_marginStart="25dp"
+       android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+
+
+</LinearLayout>

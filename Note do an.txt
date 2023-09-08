@@ -1,0 +1,23 @@
+Bố cục:
+chương 1 giới thiệu về dự án PM:( các chức năng chính của phần mềm, các tác nhân sử dụng phần mềm đó )
+- Chủ đầu tư ( Địa chỉ ) giả định ( giống môn quản lý dự án )
+- Giới thiệu được sơ bộ về PM, mong muốn sơ bộ của khách hàng
+
+Chương 2: phân tích và thiết kế ( phương pháp phân tích và thiết kế hướng đối tượng)
+- phải sử dụng các công cụ phân tích và thiết kế ( hay sử dụng Ration Rose, Mockup... )
+- Trong tài liệu thiết kế phải sử dụng được các biểu đồ
+- Thiết kế được cơ sở dữ liệu ( k đc bịa )
+- Xây dựng được lớp thực thể ( trong 1 lớp thực thể có 3 tp, 2 cái chính thuộc tính và phương thức )
++ thuộc tính giúp xây dựng cơ sở dữ liệu
++ phương thức giúp thiết kế các thành phần phần mềm ( chức năng )
+- Hay sử dụng loại biểu đồ cho phân tích hay sử dử dụng biểu đồ K sử dụng, biểu đồ lớp tham gia K sử dụng, 
+- Biểu đồ xác định được lớp và phương thức của lớp
+- Biểu đồ trạng thâí, biểu đồ điều hướng
+
+Chương 3: Kiểm thử
+Sử dụng kỹ thuâth kiểm thử nào 
+Đưa ra VD chứng minh được đã sử dụng kiểm thử đó
+
+
+
+Cỡ chữ: 14

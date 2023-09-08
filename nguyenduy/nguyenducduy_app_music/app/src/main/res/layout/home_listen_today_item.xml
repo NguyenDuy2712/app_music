@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imv"
+        android:src="@drawable/imv_luong_son_ba"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/lbTitle"
+        android:text="Nhạc mới tuần này "
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:gravity="start"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="V.A"
+        android:id="@+id/lbSubTitle"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/homeSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
