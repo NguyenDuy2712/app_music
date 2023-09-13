@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.main.setting.UploadFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/viewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="@string/favorite"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/viewContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="13dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewHeader">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="21dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="17dp"
+                        android:text="Tên bài hát :"
+                        android:textColor="@color/gray56"
+                        android:textSize="14dp" />
+
+                    <EditText
+                        android:id="@+id/txtNameSong"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"
+                        android:gravity="center|end"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColorHint="@color/colorAccent"
+                        android:hint="Nhập tên bài hát"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="#DEDFE2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="21dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="17dp"
+                        android:text="Tên nghệ sĩ :"
+                        android:textColor="@color/gray56"
+                        android:textSize="14dp" />
+
+                    <EditText
+                        android:id="@+id/txtArtist"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"
+                        android:gravity="center|end"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColorHint="@color/colorAccent"
+                        android:hint="Nhập tên nghệ sĩ"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="#DEDFE2" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="21dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="17dp"
+                        android:text="File ảnh :"
+                        android:textColor="@color/gray56"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/txtImage"
+                        android:ellipsize="end"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"
+                        android:gravity="center|end"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:text=""
+                        android:textColorHint="@color/colorAccent"
+                        android:hint="Chọn ảnh"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="#DEDFE2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="21dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="17dp"
+                        android:text="File mp3 :"
+                        android:textColor="@color/gray56"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/txtMp3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"
+                        android:gravity="center|end"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:text=""
+                        android:textColorHint="@color/colorAccent"
+                        android:hint="Chọn file mp3"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@id/btnUpload"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="25dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewContent"
+        android:layout_width="100dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:text="Upload"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </androidx.cardview.widget.CardView>
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/progress"
+        android:visibility="invisible"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="90dp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:cpb_background_progressbar_color="@color/line_color"
+        app:cpb_background_progressbar_width="5sp"
+        app:cpb_progress_direction="to_right"
+        app:cpb_progressbar_color_end="#2FA5FF"
+        app:cpb_progressbar_color_start="#0346DF"
+        app:cpb_progressbar_width="15sp"
+        app:cpb_progress="0"
+        app:cpb_round_border="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"/>
+    <TextView
+        android:id="@+id/lbPercent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/progress"
+        app:layout_constraintTop_toTopOf="@+id/progress"
+        app:layout_constraintStart_toStartOf="@+id/progress"
+        app:layout_constraintEnd_toEndOf="@+id/progress"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/gray38"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/leaderBoardFragment"
+        android:name="com.example.musicapp.ui.main.leaderboard.LeaderBoardFragment"
+        android:label="fragment_leader_board"
+        tools:layout="@layout/fragment_leader_board" >
+        <action
+            android:id="@+id/action_leaderBoardFragment_to_detailLeaderFragment"
+            app:destination="@id/detailLeaderFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.musicapp.ui.main.home.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_songFragment"
+            app:destination="@id/songFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_detailLeaderFragment"
+            app:destination="@id/detailLeaderFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right"
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_detailTopicFragment"
+            app:destination="@id/detailTopicFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.example.musicapp.ui.main.library.LibraryFragment"
+        android:label="library_fragment"
+        tools:layout="@layout/library_fragment" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.musicapp.ui.main.setting.SettingFragment"
+        android:label="setting_fragment"
+        tools:layout="@layout/setting_fragment" >
+        <action
+            android:id="@+id/action_settingFragment_to_uploadFragment"
+            app:destination="@id/uploadFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/topicFragment"
+        android:name="com.example.musicapp.ui.main.topic.TopicFragment"
+        android:label="topic_fragment"
+        tools:layout="@layout/topic_fragment" >
+        <action
+            android:id="@+id/action_topicFragment_to_detailTopicFragment"
+            app:destination="@id/detailTopicFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/songFragment"
+        android:name="com.example.musicapp.ui.main.home.song.SongFragment"
+        android:label="song_fragment"
+        tools:layout="@layout/song_fragment" >
+        <argument
+            android:name="type"
+            app:argType="string"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/detailTopicFragment"
+        android:name="com.example.musicapp.ui.main.topic.detailTopic.DetailTopicFragment"
+        android:label="detail_topic_fragment"
+        tools:layout="@layout/detail_topic_fragment" >
+        <argument
+            android:name="lbTitle"
+            app:argType="string"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.musicapp.ui.main.home.search.SearchFragment"
+        android:label="search_fragment"
+        tools:layout="@layout/search_fragment" />
+    <fragment
+        android:id="@+id/detailLeaderFragment"
+        android:name="com.example.musicapp.ui.main.leaderboard.detailLeader.DetailLeaderFragment"
+        android:label="DetailLeaderFragment" >
+        <argument
+            android:name="lbTitle"
+            app:argType="string"
+            />
+        <action
+            android:id="@+id/action_detailLeaderFragment_to_songFragment"
+            app:destination="@id/songFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadFragment"
+        android:name="com.example.musicapp.ui.main.setting.UploadFragment"
+        android:label="upload_fragment"
+        tools:layout="@layout/upload_fragment" />
+</navigation>

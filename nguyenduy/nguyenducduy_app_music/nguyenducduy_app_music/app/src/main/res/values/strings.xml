@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">MusicApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_no_song">No song is playing, play a song to see controls</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="favourites">Favourites</string>
+    <string name="play_pause_button">Play Pause Button</string>
+    <string name="Home">Home</string>
+    <string name="Artist">Artists</string>
+    <string name="Playlist">Playlist</string>
+    <string name="Songs">Songs</string>
+    <string name="Korean_Music">Korean Music</string>
+    <string name="Chinese_Music">Chinese Music</string>
+    <string name="Vietnamese_Music">Vietnamese Music</string>
+    <string name="Japanese_Music">Japanese Music</string>
+    <string name="K_POP">K-POP</string>
+    <string name="V_POP">V-POP</string>
+    <string name="US_UK">US-UK</string>
+
+    <string name="suggest_for_you">Suggest For You</string>
+    <string name="enjoy_song">Listen to music suitable for you</string>
+    <string name="listen_today">What To Listen Today</string>
+    <string name="released_song">New Released Songs</string>
+    <string name="released_albums">New Released Albums</string>
+    <string name="v_pop_chart">V-Pop Song Chart</string>
+    <string name="suggested_for_you">Suggested For You</string>
+    <string name="songs_charts">Song Charts</string>
+    <string name="artist_charts">Artist Charts</string>
+    <string name="charts">Charts</string>
+    <string name="song_list">Song List</string>
+    <string name="related">Related</string>
+    <string name="topics">Topics</string>
+    <string name="library">Library</string>
+    <string name="my_music">My Music</string>
+    <string name="play_queue">Play Queue</string>
+    <string name="settings">Settings</string>
+    <string name="about_you">About You</string>
+    <string name="favorite">Upload Music</string>
+    <string name="password">Change Password</string>
+    <string name="review">Leave a review</string>
+    <string name="feedback">Feedback</string>
+    <string name="logout">Logout</string>
+
+    <string name="tiktok">TikTok Music</string>
+    <string name="rap">Vietnamese Rap</string>
+
+
+    <string name="gym">GYM</string>
+    <string name="remix">Remix</string>
+    <string name="motivation">Motivation</string>
+    <string name="karaoke">Karaoke</string>
+    <string name="server_client_id">303271653117-9t0qpr4b0ab3imdl68aal356644f8b1d.apps.googleusercontent.com</string>
+
+
+
+
+</resources>

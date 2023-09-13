@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/tab_home"
+        android:title="@string/Home"/>
+    <item
+        android:id="@+id/leaderBoardFragment"
+        android:icon="@drawable/tab_leaderboard"
+        android:title="@string/charts"/>
+    <item
+        android:id="@+id/topicFragment"
+        android:icon="@drawable/tab_report"
+        android:title="@string/topics"/>
+    <item
+        android:id="@+id/libraryFragment"
+        android:icon="@drawable/tab_profile"
+        android:title="@string/library"/>
+    <item
+        android:id="@+id/settingFragment"
+        android:icon="@drawable/icon_setting"
+        android:title="@string/settings"/>
+
+</menu>

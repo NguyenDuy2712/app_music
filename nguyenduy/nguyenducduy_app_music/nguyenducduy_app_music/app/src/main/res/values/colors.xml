@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#202125</color>
+    <color name="bottom_navigation">#272435</color>
+    <color name="icon_bottom">#787482</color>
+    <color name="status_bar">#2b2c30</color>
+    <color name="text_header">#6a4bdd</color>
+
+    <color name="colorPrimary">#353941</color>
+    <color name="colorPrimaryDark">#26282b</color>
+    <color name="colorAccent">#630373</color>
+    <color name="holoWhite">#EEEEEE</color>
+    <color name="grey">#C1C1C1</color>
+    <color name="colorBlur">#1781BB</color>
+    <color name="homeSubTitle">#FF5E5D5D</color>
+    <color name="gray">#F5F5F5</color>
+    <color name="graya5">#a5a5a5</color>
+    <color name="bg_suggest">#991781BB</color>
+    <color name="bg_mini_play">#fefefe</color>
+    <color name="bg_suggest_for_you">#991781BB</color>
+    <color name="color_blur_gray">#9A5E5D5D</color>
+    <color name="gold">#DA203C</color>
+    <color name="sliver">#FF9800</color>
+    <color name="bron">#3F51B5</color>
+    <color name="bg_topic">#66C1C1C1</color>
+    <color name="gray56">#565656</color>
+    <color name="primary_background">#FFF5F7FB</color>
+    <color name="gray76_about">#1F767680</color>
+    <color name="header_gray43">#434343</color>
+    <color name="background_segment">#1F767680</color>
+    <color name="bg_notifi">#d0c9b9</color>
+    <color name="bg_text_noti">#7f6d56</color>
+
+    <color name="gray38">#383838</color>
+    <color name="line_color">#FFDEDFE2</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
